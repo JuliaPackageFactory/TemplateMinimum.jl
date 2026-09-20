@@ -1,0 +1,10 @@
+name = "Minimum"
+uuid = "c1295625-87ea-430b-8a8e-cec21038bef7"
+authors = ["PkgFactory CI"]
+version = "0.0.1"
+
+[compat]
+julia = "1.12"
+
+[workspace]
+projects = ["test"]
