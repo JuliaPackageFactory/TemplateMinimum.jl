@@ -1,16 +1,16 @@
 # PkgFactoryMinimum.jl
 
 [![Julia 1.12+](https://badgen.net/static/Julia/1.12%2B/007ec6?icon=https%3A%2F%2Fraw.githubusercontent.com%2FJuliaLang%2Fjulia-logo-graphics%2Fmaster%2Fimages%2Fjulia-dots.svg)](https://julialang.org/downloads/)
-[![CI](https://github.com/ohno/PkgFactoryMinimum.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/ohno/PkgFactoryMinimum.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![CI](https://github.com/JuliaPackageFactory/PkgFactoryMinimum.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/JuliaPackageFactory/PkgFactoryMinimum.jl/actions/workflows/CI.yml?query=branch%3Amain)
 
-Integration tests for the `minimum` template of [PkgFactory.jl](https://github.com/ohno/PkgFactory.jl).
+Integration tests for the `minimum` template of [PkgFactory.jl](https://github.com/JuliaPackageFactory/PkgFactory.jl).
 
 ## Quick Start
 
 Run the following command in the Julia REPL or a notebook:
 
 ```julia
-import Pkg; Pkg.add(url="https://github.com/ohno/PkgFactoryMinimum.jl.git")
+import Pkg; Pkg.add(url="https://github.com/JuliaPackageFactory/PkgFactoryMinimum.jl.git")
 ```
 
 After installation, load the package and verify it works:
@@ -25,7 +25,7 @@ julia> import PkgFactoryMinimum; PkgFactoryMinimum.hello()
 Clone the repository, move into its directory, and run the test suite with:
 
 ```shell
-git clone https://github.com/ohno/PkgFactoryMinimum.jl.git
+git clone https://github.com/JuliaPackageFactory/PkgFactoryMinimum.jl.git
 cd PkgFactoryMinimum.jl
 julia --project=. --startup-file=no -e 'using Pkg; Pkg.test()'
 ```
