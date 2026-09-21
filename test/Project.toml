@@ -1,5 +1,5 @@
 [deps]
-Minimum = "c1295625-87ea-430b-8a8e-cec21038bef7"
+PkgFactoryMinimum = "c1295625-87ea-430b-8a8e-cec21038bef7"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]

@@ -1,4 +1,4 @@
-module Minimum
+module PkgFactoryMinimum
 
 """
 Return a friendly greeting.

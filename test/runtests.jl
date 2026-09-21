@@ -1,6 +1,6 @@
-using Minimum
+using PkgFactoryMinimum
 using Test
 
-@testset "Minimum.hello" begin
-    @test Minimum.hello() == "Hello, World!"
+@testset "PkgFactoryMinimum.hello" begin
+    @test PkgFactoryMinimum.hello() == "Hello, World!"
 end
